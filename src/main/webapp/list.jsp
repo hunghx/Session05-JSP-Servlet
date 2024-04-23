@@ -13,6 +13,7 @@
 </head>
 <body>
 <h1>Dah sach viec lam</h1>
+<a href="/todo?action=ADD"> Thêm mới</a>
 <table border="10" cellpadding="10" cellspacing="10">
     <thead>
     <tr>
