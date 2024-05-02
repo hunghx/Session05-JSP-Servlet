@@ -23,6 +23,7 @@
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 <a href="/todo?action=GETALL">Danh sách công việc</a>
+<a href="/StudentController?action=GETALL">Danh sách Sinh viên</a>
 <p><%=a%></p>
 </body>
 </html>

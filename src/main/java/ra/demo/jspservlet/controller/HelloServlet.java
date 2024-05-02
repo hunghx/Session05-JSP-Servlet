@@ -1,4 +1,4 @@
-package ra.demo.jspservlet;
+package ra.demo.jspservlet.controller;
 
 import java.io.*;
 import javax.servlet.ServletException;

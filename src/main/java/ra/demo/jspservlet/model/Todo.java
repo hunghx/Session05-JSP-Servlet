@@ -1,4 +1,4 @@
-package ra.demo.jspservlet;
+package ra.demo.jspservlet.model;
 
 public class Todo {
     private int id;

@@ -1,4 +1,6 @@
-package ra.demo.jspservlet;
+package ra.demo.jspservlet.controller;
+
+import ra.demo.jspservlet.model.Todo;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -103,9 +105,6 @@ public class TodoServlet extends HttpServlet {
     private int getNewId(){
         int idMax = todoList.stream().mapToInt(Todo::getId).max().orElse(0);
         return idMax+1;
-
     }
-
-
 }
  
